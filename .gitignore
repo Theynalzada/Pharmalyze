@@ -1,0 +1,7 @@
+.env
+Scripts/__pycache__/
+Models/
+.venv/
+Data/fined_tuned/
+VectorStore/
+Data/openfda.json

@@ -1,0 +1,14 @@
+base_url: https://api.fda.gov/drug/label.json
+emb_model: sentence-transformers/all-MiniLM-L6-v2
+rerank_model: cross-encoder/ms-marco-MiniLM-L-6-v2
+# llm: BioMistral/BioMistral-7B # Use this model for better accuracy
+llm: Qwen/Qwen2.5-1.5B-Instruct
+chunk_overlap: 50
+chunk_size: 500
+metadata:
+ - generic_name
+ - brand_name
+ - manufacturer
+ - product_type
+ - route
+ - epc
